@@ -1,4 +1,23 @@
-let proyectos = []
+let proyectos = [
+	{
+		"id": "0294618",
+		"nombre": "Vinland",
+		"ubicacion": "1era y 3era",
+		"presupuesto": 25000
+	},
+	{
+		"id": "1849502",
+		"nombre": "ProyectD",
+		"ubicacion": "Ave. 5ta y Los leones",
+		"presupuesto": 42000
+	},
+	{
+		"id": "6123027",
+		"nombre": "Hokai",
+		"ubicacion": "105 entre 120 y 6ta",
+		"presupuesto": 12000
+	}
+]
 class ProyectoConstruccion {
 	constructor(id, nombre, ubicacion, presupuesto){
 		this.id = id;
